@@ -1,0 +1,37 @@
+{
+ "errno": 0,
+ "errmsg": "",
+ "data": {
+  "comicInfo": {
+   "id": 64645,
+   "title": "北地之龙",
+   "cover": "https://images.zaimanhua.com/img/webpic/8/1044131881659931905.jpg",
+   "canRead": true,
+   "lastUpdateChapterId": 195409,
+   "lastUpdateTime": 1792938876,
+   "chapterList": [
+    {
+     "title": "连载",
+     "data": [
+      {
+       "chapter_id": 195409,
+       "chapter_title": "回归平常",
+       "updatetime": 1792938876,
+       "filesize": 0,
+       "chapter_order": 350,
+       "is_fee": false
+      },
+      {
+       "chapter_id": 195346,
+       "chapter_title": "灾业龙纳尔菲洛",
+       "updatetime": 1792770535,
+       "filesize": 0,
+       "chapter_order": 349,
+       "is_fee": false
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

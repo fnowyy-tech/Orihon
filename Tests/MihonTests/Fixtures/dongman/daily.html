@@ -1,0 +1,566 @@
+
+<!doctype html>
+<html lang="zh_CN">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<link rel="shortcut icon" href="https://cdn-static.dongmanmanhua.cn/image/favicon/favicon_dongman.ico">
+<link rel="stylesheet" type="text/css" href="/css/linewebtoon.css?t=20200714">
+ <link rel="stylesheet" type="text/css" href="/css/linewebtoon_cn.css">
+<link rel="stylesheet" type="text/css" href="/css/linewebtoon_dongman_cn.css?t=20180201">
+<title>漫画每日更新-一周最新更新漫画-星期类别|咚漫中文官网</title>
+<meta name="keywords" content="咚漫,咚漫漫画,最新更新漫画, 更新漫画,在线漫画,免费漫画" />
+<meta name="description" content="咚漫中文官方网站每天免费更新各种类别的在线漫画，并可在手机，平板电脑和台式机等多终端上进行阅读，点击查看咚漫一周漫画更新和今日最新漫画！" />
+<link rel="canonical" href="http://www.dongmanmanhua.cn/dailySchedule" />
+</head>
+<body class="dongman_cn">
+<div id="wrap" class="header_bdr">
+<link rel="stylesheet" type="text/css" href="/css/verify.css">
+<div id="u_skip">
+    <a href="#content"
+       onclick="document.getElementById('content').tabIndex=-1;document.getElementById('content').focus();return false;"><span>skip content</span></a>
+</div>
+<div id="header" >
+    <input type="hidden" id="testingCodePop">
+    <div class="header_inner">
+        <p class="logo">
+            <a href="//www.dongmanmanhua.cn/" class="btn_logo N=a:gnb.home,g:zh_CN_zh-hans">WEBTOON</a>
+        </p>
+    <div class="sta">
+        <a class="youthOpenBtn" href="/app/pay/product/list" id="showPayBtn" style="background: #000;color:#fff;">咚币充值</a>
+        <a data-buried-obj="1" data-sc-name="PC_head-module_login-btn" href="#" class="lk_login"
+           id="btnLogin">登录</a>
+        <span class="login N=a:gnb.mywebtoon,g:zh_CN_zh-hans" id="btnLoginInfo"
+              style="display: none;"></span> 
+            <span class="youthOpenBtn" id="youthOpenBtn" data-youth-open="0" style="">青少年模式</span>
+            <div class="ly_loginbox v2 NE=a:log" id="layerMy">
+                <div class="ico_arr v3 up"></div>
+                <div class="loginbox_cont">
+                    <p class="t_login">登录</p>
+                    <form name="formLogin" id="formLogin" target="_top" autocomplete="off"
+                          action="/member/login/doLoginById" method="post">
+                        <input type="hidden" id="loginType" name="loginType" value="PHONE_NUMBER"/>
+                        <input type="hidden" id="serviceZone" name="serviceZone" value="CHINA"/>
+                        <input type="hidden" id="encnm" name="encnm"/>
+                        <input type="hidden" id="encpw" name="encpw"/>
+                        <input type="hidden" id="_csrf" name="_csrf" value=""/>
+                        <input type="hidden" class="scPresetAttributes" name="scPresetAttributes" value=""/>
+                        <div class="input_area" id="phoneNumberIdArea" style="display:none">
+                            <span class="login_phone_01"></span>
+                            <input type="text" placeholder="请输入手机号" id="phoneNumberId" class="input_box_seo _userId"
+                                   maxlength="11">
+                            <p class="error_prompt_txt error_phone_txt"></p>
+                        </div>
+                        <div class="input_area" id="testingCodeArea" style="display:none">
+                            <span class="login_lock_02"></span>
+                            <input type="text" placeholder="请输入验证码" id="testingCodeId"
+                                   class="input_box_seo testingCodeBox _userId" maxlength="6">
+                            <span class="get_testing_code">获取验证码</span>
+                            <p class="error_prompt_txt error_testing_txt"></p>
+                        </div>
+                        <div class="input_area" id="phoneEmailIdArea">
+                            <span class="login_head_01"></span>
+                            <input type="text" placeholder="请输入手机号/邮箱" id="phoneEmailId" class="input_box_seo _userId">
+                            <p class="error_prompt_txt error_email_txt"></p>
+                        </div>
+                        <div class="input_area" id="passwordArea">
+                            <span class="login_lock_01"></span>
+                            <input type="password"
+                                   placeholder="密码"
+                                   id="password" maxlength="16" name="password" class="input_box_seo">
+                            <p class="error_prompt_txt error_password_txt"></p>
+                        </div>
+                    </form>
+                    <div class="sel_privacy_icon_c">
+                        <span class="sel_privacy_btn_black sel_privacy_btn sel_privacy_btn_null"></span>
+                        <span class="text_area">我已同意咚漫的 <a href="/terms">用户服务协议</a>、<a href="/terms#privacyPolicy">隐私政策</a>及<a href="/terms#youth_policy">儿童隐私政策</a></span>
+                    </div>
+                    <div id="testingCodeContainer"></div>
+                    <input type="hidden" id="testingCode">
+                    <div class="login_btn">
+                        <a href="javascript:void(0)" id="btnLogIn"
+                           class="login_btn_default v2 NPI=a:phone">登录</a>
+                    </div>
+                            <div class="lk_area">
+                                <p class="toggle_btn_container">
+                                    <a href="#" data-toggle-status="0" id="toggleLoginModeItems">验证码注册/登录</a>
+                                    <span class="bar">|</span>
+                                    <a href="/member/password/forgot?loginType=PHONE_NUMBER" class="NPI=a:pnresetpass"
+                                       id="btnForgotPassword">忘记密码？</a>
+                                </p>
+                                <p class="use_password_btn">使用密码登录</p>
+                            </div>
+                    <div class="bg_line">
+                        <div class="inner">
+                            <span class="line_txt">或者使用以下平台登录</span>
+                        </div>
+                    </div>
+                    <ul class="login_set">
+                            <li><a href="#"
+                                   title="登录 新浪微博"
+                                   class="btn_weibo_wbIcon _btnLoginSns NPI=a:wb,g:zh_CN_zh-hans"
+                                   data-type="weibo">登录 新浪微博</a></li>
+                    </ul>
+                </div>
+                <a href="#" title="关闭" class="btn_clse _btnClose">关闭登录视窗</a>
+            </div>
+            <span class="bar">|</span>
+            <a data-buried-obj="1" data-sc-name="PC_head-module_search-btn" href="#"
+               class="btn_search _btnSearch N=a:gnb.search,g:zh_CN_zh-hans">搜索</a>
+        <div class="search_area _searchArea NE=a:sch" style="display:none">
+            <span class="input_box"><input data-buried-obj="2" data-sc-name="PC_search-result-page_search-input"
+                                           type="text" class="input_search _txtKeyword"></span>
+            <em class="search_dsc _searchDesc">可以用作品或作者进行搜索。</em>
+            <span class="form_area _searchForm">
+						<em class="ico_search _icoSearch">搜索</em>
+						<a href="#" class="btn_delete _btnDelete NPI=a:del,g:zh_CN_zh-hans"
+                           style="display: none;">删除</a>
+						<em class="bar">|</em>
+						<a href="#" class="lk_close _btnClose NPI=a:cancel,g:zh_CN_zh-hans">关闭</a>
+					</span>
+            <ul class="ly_autocomplete _searchLayer" style="display:none">
+            </ul>
+        </div>
+    </div>
+    <p class="blind">MENU</p>
+    <ul class="lnb NE=a:gnb">
+        <li class="m01 on"><a data-buried-obj="1"
+                                                                         data-sc-name="PC_head-module_head-week-btn"
+                                                                         href="//www.dongmanmanhua.cn/dailySchedule"
+                                                                         class="NPI=a:daily,g:zh_CN_zh-hans"><h1>
+            星期类别
+            </h1></a><span class="blind">(selected)</span>
+        </li>
+            <li class="m02 "><a data-buried-obj="1"
+                                                                     data-sc-name="PC_head-module_head-genre-btn"
+                                                                     href="//www.dongmanmanhua.cn/genre"
+                                                                     class="NPI=a:genre,g:zh_CN_zh-hans">
+                分类
+                    </a>
+            </li>
+            <li class="m03 "><a data-buried-obj="1"
+                                                                   data-sc-name="PC_head-module_head-rank-btn"
+                                                                   href="//www.dongmanmanhua.cn/top"
+                                                                   class="NPI=a:toprated,g:zh_CN_zh-hans">
+                排行榜
+                    </a>
+            </li>
+        <li class="m05">
+        </li>
+    </ul>
+</div>
+</div>
+<hr>
+    <div id="container" class="bg">
+        <div id="content" class="NE=a:dsd">
+        	<div class="snb_wrap daily _snb_wrap" style="width:100%;position:absolute">
+				<div class="snb_inner">
+						<ul class="snb _type_selector">
+							<li class="ongoing on" data-type="ONGOING"><a  data-buried-obj="1" data-sc-name="PC_week-page_serial-btn" href="#ongoing">连载</a></li>
+							<li class="completed" data-type="COMPLETED"><a  data-buried-obj="1" data-sc-name="PC_week-page_end-btn" href="#completed">完结</a></li>
+						</ul>
+					<div class="snb_sort _sorting">
+						<a href="#" onclick="return false;" id="_sortLink" class="checked">按人气 <span class="pull_down_02"></span></a>
+						<ul class="sort_box">
+						<li><a href="#" onclick="return false;" data-sort="READ_COUNT">按人气 </a></li>
+						<li><a href="#" onclick="return false;" data-sort="LIKEIT">按点赞数 </a></li>
+						<li><a href="#" onclick="return false;" data-sort="UPDATE">按更新时间 </a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="daily_lst" id="dailyList" style="margin-top:69px">
+				<h2 id="ongoing" class="daily_head _type_title" data-type="ONGOING">连载作品</h2>
+				<div class="daily_section  _list_MONDAY">
+					<h2><a href="#" class="_weekdaySelect NPI=a:mon,g:zh_CN_zh-hans" data-weekday="MONDAY">周一</a></h2>
+					<ul class="daily_card daily_limit_img_container">
+						<li id="title_li_1954" data-title-no="1954">
+							<a data-buried-obj="1" data-sc-name="PC_week-page_MONDAY-list-item"  href="//www.dongmanmanhua.cn/SUSPENSE/ruchuyizhedenver/list?title_no=1954" class="daily_card_item NPI=a:list,i=1954,r=1,g:zh_CN_zh-hans">
+								<img src="https://cdn.dongmanmanhua.cn/2355a6e0-73f6-4385-aea9-daa181ea6031.jpg?x-oss-process=image/resize,w_126,limit_0/sharpen,100" width="126" height="126" alt="">
+								<p class="genre g_suspense">悬疑</p>
+								<div class="info">
+									<p class="subj">如出一辙的女儿</p>
+									<p class="author">YIDAHM</p>
+									<p class="icon_area"></p>
+								</div>
+								<p class="grade_area"><span class="ico_like3">like</span><em class="grade_num"></em></p>
+							</a>
+						</li>
+						<li id="title_li_2793" data-title-no="2793">
+							<a data-buried-obj="1" data-sc-name="PC_week-page_MONDAY-list-item"  href="//www.dongmanmanhua.cn/LOVE/womengonghuideaidou/list?title_no=2793" class="daily_card_item NPI=a:list,i=2793,r=2,g:zh_CN_zh-hans">
+								<img src="https://cdn.dongmanmanhua.cn/8b929957-aa6f-4790-8ffe-3f6d3747a7e3.jpg?x-oss-process=image/resize,w_126,limit_0/sharpen,100" width="126" height="126" alt="">
+								<p class="genre g_love">恋爱</p>
+								<div class="info">
+									<p class="subj">我们公会的爱豆</p>
+									<p class="author">KKOBO</p>
+									<p class="icon_area"></p>
+								</div>
+								<p class="grade_area"><span class="ico_like3">like</span><em class="grade_num"></em></p>
+							</a>
+						</li>
+						</ul>
+				</div>
+				<div class="daily_section  _list_TUESDAY">
+					<h2><a href="#" class="_weekdaySelect NPI=a:tue,g:zh_CN_zh-hans" data-weekday="TUESDAY">周二</a></h2>
+					<ul class="daily_card daily_limit_img_container">
+						<li id="title_li_2795" data-title-no="2795">
+							<a data-buried-obj="1" data-sc-name="PC_week-page_TUESDAY-list-item"  href="//www.dongmanmanhua.cn/FANTASY/fanzhuanlianxisheng/list?title_no=2795" class="daily_card_item NPI=a:list,i=2795,r=1,g:zh_CN_zh-hans">
+								<img src="https://cdn.dongmanmanhua.cn/190fa305-b768-4a3c-96dd-1bbeabe2d071.jpg?x-oss-process=image/resize,w_126,limit_0/sharpen,100" width="126" height="126" alt="">
+								<p class="genre g_fantasy">奇幻</p>
+								<div class="info">
+									<p class="subj">反转练习生</p>
+									<p class="author">Song Geukjang</p>
+									<p class="icon_area"><span class="txt_ico_hiatus2">HIATUS</span></p>
+								</div>
+								<p class="grade_area"><span class="ico_like3">like</span><em class="grade_num"></em></p>
+							</a>
+						</li>
+						<li id="title_li_2848" data-title-no="2848">
+							<a data-buried-obj="1" data-sc-name="PC_week-page_TUESDAY-list-item"  href="//www.dongmanmanhua.cn/SUSPENSE/weixiandetongxue/list?title_no=2848" class="daily_card_item NPI=a:list,i=2848,r=2,g:zh_CN_zh-hans">
+								<img src="https://cdn.dongmanmanhua.cn/c98eb6b9-8062-4923-ab5a-62bb7d5625f3.jpg?x-oss-process=image/resize,w_126,limit_0/sharpen,100" width="126" height="126" alt="">
+								<p class="genre g_suspense">悬疑</p>
+								<div class="info">
+									<p class="subj">危险的同学</p>
+									<p class="author">苏里布</p>
+									<p class="icon_area"><span class="txt_ico_hiatus2">HIATUS</span></p>
+								</div>
+								<p class="grade_area"><span class="ico_like3">like</span><em class="grade_num"></em></p>
+							</a>
+						</li>
+						</ul>
+				</div>
+				<div class="daily_section  _list_WEDNESDAY">
+					<h2><a href="#" class="_weekdaySelect NPI=a:wed,g:zh_CN_zh-hans" data-weekday="WEDNESDAY">周三</a></h2>
+					<ul class="daily_card daily_limit_img_container">
+						<li id="title_li_2678" data-title-no="2678">
+							<a data-buried-obj="1" data-sc-name="PC_week-page_WEDNESDAY-list-item"  href="//www.dongmanmanhua.cn/BOY/xingjiandashi/list?title_no=2678" class="daily_card_item NPI=a:list,i=2678,r=1,g:zh_CN_zh-hans">
+								<img src="https://cdn.dongmanmanhua.cn/5d1328d2-0800-4216-8235-fc4f73790aef.jpg?x-oss-process=image/resize,w_126,limit_0/sharpen,100" width="126" height="126" alt="">
+								<p class="genre g_boy">少年</p>
+								<div class="info">
+									<p class="subj">星剑大师</p>
+									<p class="author">洪大义/Q10 / Juno</p>
+									<p class="icon_area"><span class="txt_ico_up2">UP</span></p>
+								</div>
+								<p class="grade_area"><span class="ico_like3">like</span><em class="grade_num"></em></p>
+							</a>
+						</li>
+						<li id="title_li_1599" data-title-no="1599">
+							<a data-buried-obj="1" data-sc-name="PC_week-page_WEDNESDAY-list-item"  href="//www.dongmanmanhua.cn/CAMPUS/buliangzhidaoguan/list?title_no=1599" class="daily_card_item NPI=a:list,i=1599,r=2,g:zh_CN_zh-hans">
+								<img src="https://cdn.dongmanmanhua.cn/3bf24bff-4281-401f-9666-3747a5d8637d.jpg?x-oss-process=image/resize,w_126,limit_0/sharpen,100" width="126" height="126" alt="">
+								<p class="genre g_campus">校园</p>
+								<div class="info">
+									<p class="subj">不良指导官</p>
+									<p class="author">蔡溶宅 / HAN GARAM</p>
+									<p class="icon_area"><span class="txt_ico_up2">UP</span></p>
+								</div>
+								<p class="grade_area"><span class="ico_like3">like</span><em class="grade_num"></em></p>
+							</a>
+						</li>
+						</ul>
+				</div>
+				<div class="daily_section  _list_THURSDAY">
+					<h2><a href="#" class="_weekdaySelect NPI=a:thu,g:zh_CN_zh-hans" data-weekday="THURSDAY">周四</a></h2>
+					<ul class="daily_card daily_limit_img_container">
+						<li id="title_li_2892" data-title-no="2892">
+							<a data-buried-obj="1" data-sc-name="PC_week-page_THURSDAY-list-item"  href="//www.dongmanmanhua.cn/LOVE/dibaodebaizhou/list?title_no=2892" class="daily_card_item NPI=a:list,i=2892,r=1,g:zh_CN_zh-hans">
+								<img src="https://cdn.dongmanmanhua.cn/72a8eeb0-e232-4ab6-bf40-2fa90cf962d6.jpg?x-oss-process=image/resize,w_126,limit_0/sharpen,100" width="126" height="126" alt="">
+								<p class="genre g_love">恋爱</p>
+								<div class="info">
+									<p class="subj">地堡的白昼</p>
+									<p class="author">Lee Myeon Ji</p>
+									<p class="icon_area"><span class="txt_ico_hiatus2">HIATUS</span></p>
+								</div>
+								<p class="grade_area"><span class="ico_like3">like</span><em class="grade_num"></em></p>
+							</a>
+						</li>
+						<li id="title_li_2771" data-title-no="2771">
+							<a data-buried-obj="1" data-sc-name="PC_week-page_THURSDAY-list-item"  href="//www.dongmanmanhua.cn/BOY/tepinyaoyuan/list?title_no=2771" class="daily_card_item NPI=a:list,i=2771,r=2,g:zh_CN_zh-hans">
+								<img src="https://cdn.dongmanmanhua.cn/f0e55c8f-2703-4677-8ba9-98c67a7e0a00.jpg?x-oss-process=image/resize,w_126,limit_0/sharpen,100" width="126" height="126" alt="">
+								<p class="genre g_boy">少年</p>
+								<div class="info">
+									<p class="subj">特聘要员</p>
+									<p class="author">Kwon Sora / Seo Jaewon / ch / Malpae</p>
+									<p class="icon_area"><span class="txt_ico_hiatus2">HIATUS</span></p>
+								</div>
+								<p class="grade_area"><span class="ico_like3">like</span><em class="grade_num"></em></p>
+							</a>
+						</li>
+						</ul>
+				</div>
+				<div class="daily_section  _list_FRIDAY">
+					<h2><a href="#" class="_weekdaySelect NPI=a:fri,g:zh_CN_zh-hans" data-weekday="FRIDAY">周五</a></h2>
+					<ul class="daily_card daily_limit_img_container">
+						<li id="title_li_1804" data-title-no="1804">
+							<a data-buried-obj="1" data-sc-name="PC_week-page_FRIDAY-list-item"  href="//www.dongmanmanhua.cn/FANTASY/feirenzai/list?title_no=1804" class="daily_card_item NPI=a:list,i=1804,r=1,g:zh_CN_zh-hans">
+								<img src="https://cdn.dongmanmanhua.cn/d10f7c87-43d4-407c-9c8c-4af8e39b5e72.jpg?x-oss-process=image/resize,w_126,limit_0/sharpen,100" width="126" height="126" alt="">
+								<p class="genre g_fantasy">奇幻</p>
+								<div class="info">
+									<p class="subj">非人哉</p>
+									<p class="author">一汪空气</p>
+									<p class="icon_area"></p>
+								</div>
+								<p class="grade_area"><span class="ico_like3">like</span><em class="grade_num"></em></p>
+							</a>
+						</li>
+						<li id="title_li_2900" data-title-no="2900">
+							<a data-buried-obj="1" data-sc-name="PC_week-page_FRIDAY-list-item"  href="//www.dongmanmanhua.cn/SUSPENSE/shesiyouxi/list?title_no=2900" class="daily_card_item NPI=a:list,i=2900,r=2,g:zh_CN_zh-hans">
+								<img src="https://cdn.dongmanmanhua.cn/605d4674-aedf-4c9c-88d6-6b1126d8e9e8.jpg?x-oss-process=image/resize,w_126,limit_0/sharpen,100" width="126" height="126" alt="">
+								<p class="genre g_suspense">悬疑</p>
+								<div class="info">
+									<p class="subj">社死游戏</p>
+									<p class="author">Bongsoo / dai</p>
+									<p class="icon_area"></p>
+								</div>
+								<p class="grade_area"><span class="ico_like3">like</span><em class="grade_num"></em></p>
+							</a>
+						</li>
+						</ul>
+				</div>
+				<div class="daily_section  _list_SATURDAY">
+					<h2><a href="#" class="_weekdaySelect NPI=a:sat,g:zh_CN_zh-hans" data-weekday="SATURDAY">周六</a></h2>
+					<ul class="daily_card daily_limit_img_container">
+						<li id="title_li_1990" data-title-no="1990">
+							<a data-buried-obj="1" data-sc-name="PC_week-page_SATURDAY-list-item"  href="//www.dongmanmanhua.cn/BOY/wopeiyangdesjimen/list?title_no=1990" class="daily_card_item NPI=a:list,i=1990,r=1,g:zh_CN_zh-hans">
+								<img src="https://cdn.dongmanmanhua.cn/4232b675-16c0-461b-8bae-18b5d8cf08a6.jpg?x-oss-process=image/resize,w_126,limit_0/sharpen,100" width="126" height="126" alt="">
+								<p class="genre g_boy">少年</p>
+								<div class="info">
+									<p class="subj">我培养的S级们</p>
+									<p class="author">seri/geunseo / biwan</p>
+									<p class="icon_area"></p>
+								</div>
+								<p class="grade_area"><span class="ico_like3">like</span><em class="grade_num"></em></p>
+							</a>
+						</li>
+						<li id="title_li_2736" data-title-no="2736">
+							<a data-buried-obj="1" data-sc-name="PC_week-page_SATURDAY-list-item"  href="//www.dongmanmanhua.cn/LOVE/bojuejiadeshenmishinv/list?title_no=2736" class="daily_card_item NPI=a:list,i=2736,r=2,g:zh_CN_zh-hans">
+								<img src="https://cdn.dongmanmanhua.cn/655cfd66-8f92-4aae-bb7f-9bfe681e4a69.jpg?x-oss-process=image/resize,w_126,limit_0/sharpen,100" width="126" height="126" alt="">
+								<p class="genre g_love">恋爱</p>
+								<div class="info">
+									<p class="subj">伯爵家的神秘侍女</p>
+									<p class="author">Baekjua / MIDNIGHT STUDIO</p>
+									<p class="icon_area"></p>
+								</div>
+								<p class="grade_area"><span class="ico_like3">like</span><em class="grade_num"></em></p>
+							</a>
+						</li>
+						</ul>
+				</div>
+				<div class="daily_section  _list_SUNDAY">
+					<h2><a href="#" class="_weekdaySelect NPI=a:sun,g:zh_CN_zh-hans" data-weekday="SUNDAY">周日</a></h2>
+					<ul class="daily_card daily_limit_img_container">
+						<li id="title_li_2914" data-title-no="2914">
+							<a data-buried-obj="1" data-sc-name="PC_week-page_SUNDAY-list-item"  href="//www.dongmanmanhua.cn/CAMPUS/wanmeixuezhangdeyincangmimi/list?title_no=2914" class="daily_card_item NPI=a:list,i=2914,r=1,g:zh_CN_zh-hans">
+								<img src="https://cdn.dongmanmanhua.cn/a7d13fe3-356c-41be-9dd6-eeb060e8e9a5.jpg?x-oss-process=image/resize,w_126,limit_0/sharpen,100" width="126" height="126" alt="">
+								<p class="genre g_campus">校园</p>
+								<div class="info">
+									<p class="subj">完美学长的隐藏秘密</p>
+									<p class="author">Duzy</p>
+									<p class="icon_area"><span class="txt_ico_new2">NEW</span></p>
+								</div>
+								<p class="grade_area"><span class="ico_like3">like</span><em class="grade_num"></em></p>
+							</a>
+						</li>
+						<li id="title_li_2899" data-title-no="2899">
+							<a data-buried-obj="1" data-sc-name="PC_week-page_SUNDAY-list-item"  href="//www.dongmanmanhua.cn/LOVE/wumeibuwang/list?title_no=2899" class="daily_card_item NPI=a:list,i=2899,r=2,g:zh_CN_zh-hans">
+								<img src="https://cdn.dongmanmanhua.cn/7a1ee8c7-d290-4eac-93dd-e80d4be86f3c.jpg?x-oss-process=image/resize,w_126,limit_0/sharpen,100" width="126" height="126" alt="">
+								<p class="genre g_love">恋爱</p>
+								<div class="info">
+									<p class="subj">寤寐不忘</p>
+									<p class="author">2L</p>
+									<p class="icon_area"></p>
+								</div>
+								<p class="grade_area"><span class="ico_like3">like</span><em class="grade_num"></em></p>
+							</a>
+						</li>
+						</ul>
+				</div>
+			</div>
+			<div class="daily_lst comp">
+				<div class="daily_section on">
+					<h2 id="completed" class="daily_head _type_title" data-type="COMPLETED">完结作品</h2>
+					<ul class="daily_card">
+					<li id="title_li_2786" data-title-no="2786">
+						<a data-buried-obj="1" data-sc-name="PC_week-page_end-list-item" href="//www.dongmanmanhua.cn/HEALING/qujianmamadelushang/list?title_no=2786" class="daily_card_item NPI=a:complist,i=2786,r=1">
+							<img src="https://cdn.dongmanmanhua.cn/39dac1cc-a2cc-41dc-a0b0-726c13fc5e31.jpg?x-oss-process=image/resize,w_138,limit_0" width="138" height="138" alt="">
+							<p class="genre g_healing">治愈</p>
+							<div class="info">
+								<p class="subj">去见妈妈的路上</p>
+								<p class="author">GOMYANG</p>
+								<p class="icon_area">
+											<span class="txt_ico_completed2">COMPLETED</span>
+								</p>
+							</div>
+							<p class="grade_area"><span class="ico_like3">like</span><em class="grade_num">32万</em></p>
+						</a>
+					</li>
+					<li id="title_li_2738" data-title-no="2738">
+						<a data-buried-obj="1" data-sc-name="PC_week-page_end-list-item" href="//www.dongmanmanhua.cn/LOVE/buguoshilimingshifen/list?title_no=2738" class="daily_card_item NPI=a:complist,i=2738,r=2">
+							<img src="https://cdn.dongmanmanhua.cn/03074318-91a9-4db1-9953-e899b5342bda.jpg?x-oss-process=image/resize,w_138,limit_0" width="138" height="138" alt="">
+							<p class="genre g_love">恋爱</p>
+							<div class="info">
+								<p class="subj">不过是黎明时分</p>
+								<p class="author">Woo Jihye / Kang Ki</p>
+								<p class="icon_area">
+											<span class="txt_ico_completed2">COMPLETED</span>
+								</p>
+							</div>
+							<p class="grade_area"><span class="ico_like3">like</span><em class="grade_num">48万</em></p>
+						</a>
+					</li>
+					</ul>
+				</div>
+			</div>
+        </div>
+    </div>
+	<hr>
+<div style="display:none;" class="youthMask"></div>
+<div style="display:none;" class="youthModeFirstWin youthModeFirstWin_01">
+    <img class="popupWinStyle" src="//cdn-static.dongmanmanhua.cn/image/pc/youthMode/umbrella_icon_01.png" alt="">
+    <div class="FirstWinArea"></div>
+    <div class="FirstWinText">
+        为了呵护未成年人健康成长，咚漫漫画推出青少年模式，该模式下我们对不适宜青少年的内容进行了过滤，详情可查看 <a href="/terms#youth_policy">《儿童隐私政策》</a> 。请监护人主动选择，并设置监护密码。
+    </div>
+    <div class="FirstWinBtn">
+        <a class="inYouthMode" href="javascript:void(0)">进入青少年模式 <span class="r_icon"></span></a>
+        <a class="meKnowBtn" href="javascript:void(0)">我知道了</a>
+    </div>
+</div>
+<div style="display:none;" class="youthModeFirstWin youthModeFirstWin_02">
+    <img class="popupWinStyle" src="//cdn-static.dongmanmanhua.cn/image/pc/youthMode/umbrella_icon_01.png" alt="">
+    <div class="FirstWinArea"></div>
+    <div class="FirstWinText">
+        为了呵护未成年人健康成长，咚漫漫画推出青少年模式，该模式下我们对不适宜青少年的内容进行了过滤，详情可查看 <a href="/terms#youth_policy">《儿童隐私政策》</a> 。请监护人主动选择，并设置监护密码。
+    </div>
+    <div class="FirstWinBtn">
+        <a class="inYouthMode" href="javascript:void(0)">进入青少年模式 <span class="r_icon"></span></a>
+        <a class="meKnowBtn" href="javascript:void(0)">我知道了</a>
+    </div>
+</div>
+<div style="display:none;" class="passwordPopWin setPasswordPopWin">
+    <span class="closedBtn"></span>
+    <p class="title_text">设置密码</p>
+    <p class="title_prompt">请输入4位数字密码</p>
+    <div class="passwordInputContainer">
+        <input class="passwordInput setPasswordInput" maxlength="4" value="" placeholder="" type="password">
+    </div>
+    <p class="error_prompt"></p>
+    <a class="popWinSubmitBtn" href="javascript:void(0)">下一步</a>
+</div>
+<div style="display:none;" class="passwordPopWin determinePasswordPopWin">
+    <span class="closedBtn"></span>
+    <p class="title_text">确认密码</p>
+    <p class="title_prompt">请再次输入设置的密码</p>
+    <div class="passwordInputContainer">
+        <input class="passwordInput determinePasswordInput" maxlength="4" value="" placeholder="" type="password">
+    </div>
+    <p class="error_prompt"></p>
+    <a class="popWinSubmitBtn" href="javascript:void(0)">确定</a>
+</div>
+<div style="display:none;" class="passwordPopWin closeYouthModePopWin">
+    <span class="closedBtn"></span>
+    <p class="title_text">关闭青少年模式</p>
+    <p class="title_prompt">请输入4位数字密码</p>
+    <div class="passwordInputContainer">
+        <input class="passwordInput closeYouthModeInput" maxlength="4" value="" placeholder="" type="password">
+    </div>
+    <p class="error_prompt"></p>
+    <a class="popWinSubmitBtn" href="javascript:void(0)">确定</a>
+    <p class="bottom_text_container"><span class="zhmm">找回密码</span><span class="line_0"></span><span class="xgmm">修改密码</span></p>
+</div>
+<div style="display:none;" class="passwordPopWin retrievePasswordPopWin">
+    <span class="closedBtn"></span>
+    <p class="title_text">找回密码</p>
+    <p class="retrieve_text_01">若您需要重置青少年模式的密码，请您按以下步骤进行操作：</p>
+    <p class="retrieve_text_02"><span>1.</span>请提供监护人手持身份证和写有“仅用于咚漫漫画密码重置”纸张的照片，要求本人、身份证、纸在同一照片中，且字迹清晰可辨别。<br>
+        该资料仅用于密码重置，咚漫漫画不会泄露您的隐私。(不接受未成年人身份证信息)</p>
+    <p class="retrieve_text_03">
+        <span>2.</span>
+        发送邮件dl_dongman_cs@dongmancorp.cn <br>
+        或企业QQ号3006012840<br>
+        主题命名为 [青少年模式密码重置和您的咚漫ID]</p>
+    <p class="retrieve_text_03">
+        <span>3.</span>
+        咚漫ID在咚漫漫画APP [MY] > [账号管理] > [咚漫ID]查看。
+    </p>
+    <p class="retrieve_text_04">我们会尽快为您解决问题。</p>
+</div>
+<div style="display:none;" class="passwordPopWin modifyPasswordPopWin ">
+    <span class="closedBtn"></span>
+    <p class="title_text">设置密码</p>
+    <p class="title_prompt">目前只支持在咚漫漫画App上修改密码
+        请前往App在 [MY]-[青少年模式] 进行相关设置。</p>
+    <div class="modifyQrcodeContainer">
+        <img src="//cdn-static.dongmanmanhua.cn/image/pc/youthMode/qrcode_icon_01.png" alt="">
+    </div>
+</div>
+<div style="display:none;" class="passwordPopWin preventAddictedPopWin preventAddictedPopWin_01">
+    <p class="title_text">防沉迷提示</p>
+    <p class="title_prompt">今日您已累计使用40分钟，根据青少年模式规则,今日无法继续使用，或由监护人输入密码后继续使用。
+        请您合理安排使用时间。</p>
+    <div class="passwordInputContainer">
+        <input class="passwordInput preventAddictedInputA" maxlength="4" value="" placeholder="" type="password">
+    </div>
+    <p class="error_prompt"></p>
+    <a class="popWinSubmitBtn preventAddictedSubmitBntA" href="javascript:void(0)">确定</a>
+    <p class="turn_up_password">
+        <a class="preventAddictedBtnA" href="javascript:void(0)">找回密码</a>
+    </p>
+</div >
+<div style="display:none;" class="passwordPopWin preventAddictedPopWin preventAddictedPopWin_02">
+    <p class="title_text">防沉迷提示</p>
+    <p class="title_prompt">为了保障充足的休息时间，您在每日22:00至次日6:00期间无法使用咚漫漫画，或由监护人输入密码后继续使用。</p>
+    <div class="passwordInputContainer">
+        <input class="passwordInput preventAddictedInputB" maxlength="4" value="" placeholder="" type="password">
+    </div>
+    <p class="error_prompt"></p>
+    <a class="popWinSubmitBtn preventAddictedSubmitBntB" href="javascript:void(0)">确定</a>
+    <p class="turn_up_password">
+        <a  class="preventAddictedBtnB"  href="javascript:void(0)">找回密码</a>
+    </p>
+</div>
+	<div  style="height: auto; min-height: 388px;" id="footer" class="NE=a:fot">
+		<input type="hidden" id="youthModeOpenStatus" value="N">
+		<div class="notice_area" id="noticeArea" style="display: none;"></div>
+		<div class="foot_app">
+			<div class="foot_cont">
+				<span class="ico_qrcode_01">WEBTOON</span>
+				<div class="foot_down_msg">
+					<p class="txt">上下学,上下班的无聊路途给你带来欢乐的唯一APP<br>	现在就下载到手机吧!</p>
+					<a data-buried-obj="1" data-sc-name="PC_foot-module_android-download-btn" href="https://appgallery.huawei.com/app/C10799722" target="_blank" class="btn_google NPI=a:android,g:zh_CN_zh-hans">Android</a>
+					<a data-buried-obj="1" data-sc-name="PC_foot-module_iOS-download-btn" href="https://itunes.apple.com/cn/app/dong-man/id1168836057?mt=8" target="_blank" class="btn_ios NPI=a:ios,g:zh_CN_zh-hans">iOS</a>
+				</div>
+			</div>
+		</div>
+		<ul class="foot_sns">
+			<li><a href="http://weibo.com/linewebtoon" target="_blank" class="btn_foot_weibo">weibo</a></li>
+			<li><a href="http://mp.weixin.qq.com/s/KjNM-ckbOBQzVraDFUpN0w" target="_blank" class="btn_foot_weixin">weixin</a></li>
+		</ul>
+		<ul class="foot_menu _footer">
+		<li><a data-buried-obj="1" data-sc-name="PC_login-popup-module_term-btn" href="//www.dongmanmanhua.cn/terms" class="NPI=a:tos,g:zh_CN_zh-hans">条款</a></li>
+		<li class="bar">|</li>
+			<li><a data-buried-obj="1" data-sc-name="PC_login-popup-module_personal-term-btn" href="//www.dongmanmanhua.cn/terms#privacyPolicy" class="NPI=a:privacy,g:zh_CN_zh-hans" onClick="goPrivacy()">个人信息</a></li>
+		<li class="bar">|</li>
+		<li><a data-buried-obj="1" data-sc-name="PC_foot-module_company-btn" href="//www.dongmanmanhua.cn/introduction/company" class="NPI=a:tos,g:zh_CN_zh-hans">公司介绍</a></li>
+			<li class="bar">|</li>
+			<li><a data-buried-obj="1" data-sc-name="PC_foot-module_company-btn" href="/business/proposalGuide" class="NPI=a:tos,g:zh_CN_zh-hans">版权·广告合作</a></li>
+		</ul>
+		<p class="copyright" style="padding-top: 33px;">© Dongman Entertainment Corp. <span style="margin:0 13px 0 13px;color:#d4d4d4;">丨</span>北京咚漫娱乐有限公司</p>
+		<p style="margin-top:6px; text-align:center; color:#B1B1B1; font-size: 14px;">
+			<a target="_blank" style="color:#B1B1B1; font-size: 14px;" href="https://cdn-static.dongmanmanhua.cn/image/pc/copyright/zhizhao.png">营业执照</a>
+			<span style="margin:0 14px 0 14px;color:#d4d4d4;">丨</span>
+			<a target="_blank" style="color:#B1B1B1;" href="https://cdn-static.dongmanmanhua.cn/image/pc/copyright/permit.png">出版物经营许可证：新出发京零字第朝190189号</a>
+		</p>
+		<p style="margin-top:8px; text-align:center; color:#B1B1B1; font-size: 14px;">地址：北京市朝阳区广顺北大街33号福码大厦A座1101<span style="margin:0 13px 0 13px;color:#d4d4d4;">丨</span>联系方式：010-64739950<span style="margin:0 13px 0 13px;color:#d4d4d4;">丨</span>企业QQ: 3006012840<span style="margin:0 13px 0 13px;color:#d4d4d4;">
+        <p style="margin-top:6px;padding-bottom:38px; text-align:center; color:#B1B1B1; font-size: 14px;">
+		<a style="color:#B1B1B1; font-size: 14px;"
+		   href="https://beian.miit.gov.cn/#/Integrated/recordQuery">京ICP备17001033号-1</a><span
+				style="margin:0 14px 0 14px;color:#d4d4d4;">丨</span>京B2-20170726<span
+				style="margin:0 14px 0 14px;color:#d4d4d4;">丨</span>京网文〔2026〕0052-013号<span
+				style="margin:0 14px 0 14px;color:#d4d4d4;">丨</span>
+    	<a style="color:#B1B1B1;" href="//www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010502035338"><img src="//cdn-static.dongmanmanhua.cn/image/icon/logo-gongan.png" style="margin-right:5px;" alt=""/>京公网安备 11010502035338号</a></p>
+		<div class="status_bar _statusBar status_cn">
+		</div>
+	</div>
+</div>
+</body>
+</html>

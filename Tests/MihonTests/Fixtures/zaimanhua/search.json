@@ -1,0 +1,49 @@
+{
+ "errno": 0,
+ "errmsg": "",
+ "data": {
+  "list": [
+   {
+    "id": 87297,
+    "comic_id": 0,
+    "islong": 0,
+    "authors": "尾田栄一郎",
+    "copyright": 0,
+    "cover": "https://images.zaimanhua.com/webpic/11/50f2c95bf1334bb89cab97ccff221c25.jpg",
+    "hot_hits": 2970,
+    "last_name": "下篇",
+    "status": "已完结",
+    "title": "海贼王剧场版 红发歌姬",
+    "types": "冒险,热血",
+    "alias_name": "海盗王,OP,航海王",
+    "comic_py": "haizewangjuchangbanhongfageji",
+    "last_update_chapter_name": "下篇",
+    "last_update_chapter_id": 0,
+    "last_updatetime": 0,
+    "last_update_volumn": ""
+   },
+   {
+    "id": 56793,
+    "comic_id": 0,
+    "islong": 0,
+    "authors": "acc198600",
+    "copyright": 0,
+    "cover": "https://images.zaimanhua.com/webpic/10/btyssihuxcwhaizeiwangdyz.jpg",
+    "hot_hits": 2209,
+    "last_name": "第183.1话",
+    "status": "连载中",
+    "title": "坂田银时似乎想成为海贼王的样子",
+    "types": "AA",
+    "alias_name": "坂田銀時似乎想成為海賊王的樣子",
+    "comic_py": "btyssihuxcwhaizeiwangdyz",
+    "last_update_chapter_name": "第183.1话",
+    "last_update_chapter_id": 0,
+    "last_updatetime": 0,
+    "last_update_volumn": ""
+   }
+  ],
+  "page": 1,
+  "size": 20,
+  "total": 16
+ }
+}

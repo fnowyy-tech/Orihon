@@ -1,0 +1,29 @@
+[
+    {
+        "number": 1,
+        "fileName": "001.png",
+        "mediaType": "image/png",
+        "width": 1206,
+        "height": 2622,
+        "sizeBytes": 3873106,
+        "size": "3.7 MiB"
+    },
+    {
+        "number": 2,
+        "fileName": "002.png",
+        "mediaType": "image/png",
+        "width": 1206,
+        "height": 2622,
+        "sizeBytes": 1421887,
+        "size": "1.4 MiB"
+    },
+    {
+        "number": 3,
+        "fileName": "010.png",
+        "mediaType": "image/png",
+        "width": 1206,
+        "height": 2622,
+        "sizeBytes": 267246,
+        "size": "261 KiB"
+    }
+]

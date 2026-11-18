@@ -1,0 +1,21 @@
+# Build output (release binaries, IPAs, caches)
+.build/
+.swiftpm/
+*.ipa
+*.xcarchive
+DerivedData/
+xcuserdata/
+
+# Preview app: the bundle's Info.plist is source, the executable is built
+Orihon-Preview.app/Contents/MacOS/
+
+# Signing material never lives in the repository
+*.p8
+*.p12
+*.mobileprovision
+*.keychain-db
+*.cer
+*.csr
+ship.env
+
+.DS_Store

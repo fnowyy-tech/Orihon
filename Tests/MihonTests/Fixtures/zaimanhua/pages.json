@@ -1,0 +1,22 @@
+{
+ "errno": 0,
+ "errmsg": "",
+ "data": {
+  "data": {
+   "canRead": true,
+   "chapter_id": 128172,
+   "comic_id": 64645,
+   "page_url": [
+    "https://images.zaimanhua.com/img/chapterpic%2F38857%2F142281%2F1.jpg?sign=35ed141e0e69b9507baae715f9d07dee&t=1793109646",
+    "https://images.zaimanhua.com/img/chapterpic%2F38857%2F142281%2F2.jpg?sign=622023c67da17b53c4dfb50038fd6d80&t=1793109646",
+    "https://images.zaimanhua.com/img/chapterpic%2F38857%2F142281%2F3.jpg?sign=96758e39e259c356f8c3aba4956378ff&t=1793109646"
+   ],
+   "page_url_hd": [
+    "https://images.zaimanhua.com/img/chapterpic%2F38857%2F142281%2F1.jpg?sign=35ed141e0e69b9507baae715f9d07dee&t=1793109646",
+    "https://images.zaimanhua.com/img/chapterpic%2F38857%2F142281%2F2.jpg?sign=622023c67da17b53c4dfb50038fd6d80&t=1793109646",
+    "https://images.zaimanhua.com/img/chapterpic%2F38857%2F142281%2F3.jpg?sign=96758e39e259c356f8c3aba4956378ff&t=1793109646"
+   ],
+   "title": "人物设定"
+  }
+ }
+}

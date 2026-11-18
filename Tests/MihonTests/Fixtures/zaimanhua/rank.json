@@ -1,0 +1,54 @@
+{
+ "errno": 0,
+ "errmsg": "",
+ "data": [
+  {
+   "comic_id": 87148,
+   "title": "我们的葬礼",
+   "authors": "名称",
+   "status": "已完结",
+   "cover": "https://images.zaimanhua.com/img/webpic/5/2858451782738468.jpg",
+   "types": "治愈",
+   "last_updatetime": 1782739037,
+   "last_update_chapter_name": "一话完",
+   "chapter_name": "",
+   "comic_py": "womendezangli",
+   "num": 520,
+   "chapter_id": 0,
+   "tag_id": 2308,
+   "is_sub": false
+  },
+  {
+   "comic_id": 19526,
+   "title": "大理寺日志",
+   "authors": "RC",
+   "status": "连载中",
+   "cover": "https://images.zaimanhua.com/img/webpic/14/1002241141506407587.jpg",
+   "types": "历史,职场,搞笑",
+   "last_updatetime": 1790774333,
+   "last_update_chapter_name": "第321话",
+   "chapter_name": "",
+   "comic_py": "dalisirizhi",
+   "num": 500,
+   "chapter_id": 0,
+   "tag_id": 2308,
+   "is_sub": false
+  },
+  {
+   "comic_id": 20844,
+   "title": "我家大师兄脑子有坑",
+   "authors": "剧象漫画",
+   "status": "连载中",
+   "cover": "https://images.zaimanhua.com/img/webpic/7/1002475871439187470.jpg",
+   "types": "搞笑/仙侠/颜艺",
+   "last_updatetime": 1536829243,
+   "last_update_chapter_name": "第307话",
+   "chapter_name": "",
+   "comic_py": "wojiadashixiongnaoziyoukeng",
+   "num": 360,
+   "chapter_id": 0,
+   "tag_id": 2308,
+   "is_sub": false
+  }
+ ]
+}

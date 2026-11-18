@@ -1,0 +1,42 @@
+{
+ "data": [
+  {
+   "id": 0,
+   "comic_id": 69741,
+   "islong": 2,
+   "authors": "白野アキヒロ",
+   "copyright": 0,
+   "cover": "https://images.zaimanhua.com/webpic/1/sugermeetsgirl_23_05_2023.jpg",
+   "hot_hits": 0,
+   "last_name": "",
+   "status": "连载中",
+   "title": "Sugar Meets Girl！",
+   "types": "校园,ゆり,美食",
+   "alias_name": "",
+   "comic_py": "",
+   "last_update_chapter_name": "第33话",
+   "last_update_chapter_id": 196562,
+   "last_updatetime": 1793086124,
+   "last_update_volumn": "连载"
+  },
+  {
+   "id": 0,
+   "comic_id": 89071,
+   "islong": 2,
+   "authors": "万尘",
+   "copyright": 0,
+   "cover": "https://images.zaimanhua.com/img/webpic/17/2162771793030473.jpg",
+   "hot_hits": 0,
+   "last_name": "",
+   "status": "连载中",
+   "title": "猫咖店",
+   "types": "宅系",
+   "alias_name": "",
+   "comic_py": "",
+   "last_update_chapter_name": "第01话",
+   "last_update_chapter_id": 196548,
+   "last_updatetime": 1793030569,
+   "last_update_volumn": "连载"
+  }
+ ]
+}
